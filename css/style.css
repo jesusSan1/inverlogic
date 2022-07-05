@@ -149,11 +149,14 @@ blockquote {
 }
 
 ul,
-li,
 ol {
     list-style: none;
     margin: 0px;
     padding: 0px;
+}
+
+.paquete {
+    list-style: square
 }
 
 button:focus {
@@ -1718,8 +1721,8 @@ ul.cart-list>li.total>.btn:hover {
 }
 
 .footer-link ul li a::before {
-    font-family: FontAwesome;
-    content: "\f105";
+    /* font-family: FontAwesome; */
+    /* content: "\f105"; */
     position: absolute;
     left: 5px;
     line-height: 35px;
